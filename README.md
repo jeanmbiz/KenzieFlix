@@ -15,7 +15,7 @@
 > * Hover
 > * Transition
 
-<h3> Link GithubPages:  </h3>
+<h3> Link GithubPages: https://jeanmbiz.github.io/KenzieFlix/ </h3>
 
 
 
