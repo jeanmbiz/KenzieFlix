@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+body{
+    background-color: black;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    margin-top: 6rem;
+    color: white;
+    gap: 5rem;
+}
+
+
+.titulo{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 2rem;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.figura{
+    height: 160px;
+    width: 160px;
+    overflow: hidden;
+}
+
+.imagem{
+    border-radius: 5px;
+    height: 160px;
+    width: 160px;
+    transition: width 1.8s, height 1.8s;
+}
+
+.imagem:hover{
+    height: 200px;
+    width: 200px;
+}
+
+.container__perfil .branca{
+    display: none;
+    
+}
+
+.container__perfil:hover .branca{
+    display: block;
+    margin-top: 3px;
+    
+}
+
+.container__perfil:hover .preta{
+    display: none;
+}
+
+.container__perfil:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.container__perfil:hover .nome{
+    color: white;
+}
+
+.nome{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    font-size: 01rem;
+
+    color: #9C9C9C;
+
+    margin-top: 10px;
+}
+
+.gerenciar{
+    border: 1px solid white;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.gerenciar:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+.aline:hover .nome{
+    color: rgb(243, 17, 213);
+}
+
+.pedrinho:hover .nome{
+    color: rgb(15, 236, 15);
+}
+
+.julia:hover .nome{
+    color: rgb(243, 17, 213);
+}
