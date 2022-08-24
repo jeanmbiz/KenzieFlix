@@ -8,7 +8,7 @@
 
 # Projeto Login KenzieFlix
 
-<h2> Neste projeto da 2ª semana de curso, tive a oportunidade de aprofundar conceitos e conhecimentos em HTML5 e CSS: </h2>
+<h2> Neste projeto da 2ª semana de curso, tive a oportunidade de aprofundar conceitos e conhecimentos em HTML e CSS: </h2>
 
 > * Tags Semânticas
 > * Flexbox
